@@ -149,7 +149,7 @@ function executarPrograma(){
                 imprimirLista($reservas, $filaEspera);
                 break;
             case 4:
-                break;
+                exit;                
             default:
                 echo "Opção inválida";
                 break;
